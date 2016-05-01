@@ -9,3 +9,11 @@ body {
 h1, h2 {
   color: #F26602;
 }
+
+.logo-image img {
+  float: left;
+}
+
+.logo-image logo {
+  float: right;
+}
