@@ -1,13 +1,9 @@
 body {
-  background-color: #ddc;
+  background-color: #EBE9E6;
 }
 
-.header {
-  background-color: #3A3C3D;
-}
-
-h1, h2 {
-  color: #F26602;
+h1, h2, h3 {
+  color: red;
 }
 
 .logo-image img {
@@ -16,4 +12,13 @@ h1, h2 {
 
 .logo-image logo {
   float: right;
+  clear: both;
+}
+
+.header {
+  background-color: #535657;
+}
+
+.services {
+  padding-top: 20px;
 }
