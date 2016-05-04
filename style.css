@@ -8,6 +8,8 @@ h1, h2, h3 {
 
 .logo-image img {
   float: left;
+  width: 10%;
+  height: 10%;
 }
 
 .logo-image logo {
@@ -16,7 +18,8 @@ h1, h2, h3 {
 }
 
 .header {
-  background-color: #535657;
+  background: #535657 url("images/background.png") repeat-x;
+  height: 15%;
 }
 
 .services {
