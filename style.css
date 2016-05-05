@@ -1,27 +1,47 @@
 body {
   background-color: #EBE9E6;
+  font-size: 2em;
 }
 
 h1, h2, h3 {
   color: red;
 }
 
-.logo-image img {
-  float: left;
-  width: 10%;
-  height: 10%;
-}
-
-.logo-image logo {
-  float: right;
-  clear: both;
-}
-
 .header {
   background: #535657 url("images/background.png") repeat-x;
-  height: 15%;
+}
+
+.logo img {
+  float: left;
+  vertical-align: middle;
+}
+
+.logo {
+  display: inline;
+}
+
+.logo h1 {
+  font-size: 1.7em;
+}
+
+.logo img {
+  width: 5.5em;
+  height: 5em;
+}
+
+.logo h3 {
+  font-size: 1.5em;
+  float: right;
 }
 
 .services {
-  padding-top: 20px;
+  padding: 2em 0.5em;
+}
+
+.services ul {
+  list-style-type: none;
+}
+
+.address ul {
+  list-style-type: none;
 }

@@ -227,13 +227,13 @@ th {
         page-break-inside: avoid
     }
     img {
-        max-width: 100%!important
+        max-width: 100% !important
     }
     h2,
     h3,
     p {
         orphans: 3;
-        widows: 3
+        widows: 3;
     }
     h2,
     h3 {
