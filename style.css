@@ -13,6 +13,7 @@ h1, h2, h3 {
 
 .logo img {
   float: left;
+  clear: both;
   vertical-align: middle;
 }
 
@@ -31,17 +32,12 @@ h1, h2, h3 {
 
 .logo h3 {
   font-size: 1.5em;
-  float: right;
 }
 
 .services {
   padding: 2em 0.5em;
 }
 
-.services ul {
-  list-style-type: none;
-}
-
-.address ul {
+.address ul, .services ul {
   list-style-type: none;
 }
