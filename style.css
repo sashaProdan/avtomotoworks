@@ -38,6 +38,14 @@ h1, h2, h3 {
   padding: 2em 0.5em;
 }
 
+.wallpaper {
+  height: 200px;
+  width: 300px;
+  background: #535657 url("images/oil1.jpg");
+  background-size: cover;
+
+}
+
 .address ul, .services ul {
   list-style-type: none;
 }
