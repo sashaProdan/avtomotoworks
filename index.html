@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Avtomotoworks</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="We are local auto repair shop ( Call us at: 847- 393 - 7508 ), located in Mundelein, IL 60060, specializing in engine repair, oil change, tires, brakes." />
+  <title>Auto Repair in Mundelein, IL | Mercedes BMW Audi auto repair</title>
+  <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body onload="initialize()">
   <div class="container-fluid">
     <div class="row header">
-      <div class="col-md-12 logo">
-          <img src="images/star.png" alt="Avtomotoworks logo" class="img-responsive">
-          <h1>Avtomotoworks</h1>
-          <h3>Call us: (847) 393 - 7508</h3>
+      <div class="col-md-6 logo">
+        <img src="images/brand_logo.png" alt="Avtomotoworks logo" class="img-responsive">
+      </div>
+      <div class="col-md-6 call-us">
+        <h3>Call us: (847) 393 - 7508</h3>
       </div>
     </div>       <!--     end of HEADER     -->
     <div class="row services">
-      <div class="col-md-6 wallpaper">
-     <!--   <img class="img-responsive img-rounded oil-change" src="images/oil1.jpg" alt="oil-change">  -->
+      <div class="col-md-6">
+      <img class="img-responsive img-rounded" src="images/oil1.jpg" alt="oil-change">
       </div>
       <div class="col-md-6">
-        <h1>Services we offer</h1>
-        <ul>
-          <li>Advanced computer diagnostics</li>
-          <li>Heating and Cooling services</li>
-          <li>Electrical system diagnostic and repair</li>
-          <li>Oil change</li>
-          <li>Exsaust service</li>
-          <li>Tire change and rotation</li>
-          <li>Transmission services</li>
-          <li>Engine maintenance and replacement</li>
-          <li>Electronic services</li>
-          <li>Brakes</li>
-        </ul>
+        <h3>Services we offer</h3>
+          <p>&minus; Advanced computer diagnostics<br>
+             &minus; Heating and Cooling services<br>
+             &minus; Electrical system diagnostic and repair<br>
+             &minus; Oil change<br>
+             &minus; Exsaust service<br>
+             &minus; Tire change and rotation<br>
+             &minus; Transmission services<br>
+             &minus; Engine maintenance and replacement<br>
+             &minus; Electronic services<br>
+             &minus; Brakes<br>
+          </p>
       </div>
     </div>      <!--    end of SERVICES    -->
     <div class="row info">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img class="img-responsive img-rounded" src="images/diagnose.jpg" alt="engine-diagnostic">
       </div>
-      <div class="col-md-6 address">
+      <div class="col-md-4 address">
         <h3>We are located at:</h3>
-        <ul>
-          <li>25771  Hillview ct</li>
-          <li>Mundelein, IL 60060</li>
-          <li>USA</li>
-        </ul>
+          <p>25771  Hillview ct<br>
+             Mundelein, IL 60060<br>
+             USA
+          </p>
+      </div>
+      <div class="col-md-4">
+        <h3>Hours of operation:</h3>
+          <p><b>Mon - Sat:</b> 10am - 7pm<br>
+             <b>Sun:</b> closed
+          </p>
       </div>
     </div>      <!-- end of INFO    -->
     <div class="row map">
       <div class="col-md-12" id="map"></div>
       <script>
         function initialize() {
-          var position = new google.maps.LatLng(42.312872, -88.096833);
+          var position = new google.maps.LatLng(42.237038, -88.051241);
           var myOptions = {
             zoom: 10,
             center: position,
@@ -86,7 +94,13 @@
       </script>
     </div>
     <div class="row footer">
-      <div class="col-md-12">
+      <div class="col-md-11">
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          <li><a href="http://facebook.com/avtomotoworks" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+          <li><a href="http://www.yelp.com/biz/automotoworks-mundelein-2" target="_blank"><i class="fa fa-yelp   fa-2x"></i></a></li>
+        </ul>
       </div>
     </div>
   </div>    <!--   end of container-fluid    -->

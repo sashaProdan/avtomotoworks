@@ -1,10 +1,10 @@
 body {
   background-color: #EBE9E6;
-  font-size: 2em;
+  font-size: 20px;
 }
 
 h1, h2, h3 {
-  color: red;
+  color: #ff4505;
 }
 
 .header {
@@ -13,37 +13,26 @@ h1, h2, h3 {
 
 .logo img {
   float: left;
-  clear: both;
-  vertical-align: middle;
+  padding: 5px 0;
 }
 
-.logo {
-  display: inline;
+.logo img,
+.services img {
+  padding-top: 15px;
 }
 
-.logo h1 {
-  font-size: 1.7em;
-}
-
-.logo img {
-  width: 5.5em;
-  height: 5em;
-}
-
-.logo h3 {
-  font-size: 1.5em;
+.call-us {
+  padding-top: 2.8125em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services {
   padding: 2em 0.5em;
 }
 
-.wallpaper {
-  height: 200px;
-  width: 300px;
-  background: #535657 url("images/oil1.jpg");
-  background-size: cover;
-
+.info {
+  padding-bottom: 10px;
 }
 
 .address ul, .services ul {
@@ -52,11 +41,37 @@ h1, h2, h3 {
 
 #map {
   width: 100%;
-  height: 16em;
+  height: 17em;
   background-color: #ccc;
 }
 
 .footer {
   height: 5em;
   background: #535657 url("images/background.png") repeat-x;
+}
+
+.footer .socials {
+  padding-top: 20px;
+}
+
+.footer .socials > li {
+  list-style-type: none;
+  padding-left: 10px;
+  float: left;
+}
+
+.footer .socials li a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: #EBE9E6;
+
+}
+
+.footer  li :hover {
+  color: #ff4505;
+}
+
+.footer .socials {
+  float: right;
+  clear: both;
 }
